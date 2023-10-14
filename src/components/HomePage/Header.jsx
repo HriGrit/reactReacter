@@ -4,11 +4,13 @@ import dropArrow from "../../assets/dropArrow.svg"
 import searchtool from "../../assets/searchtool.svg"
 
 import "../../assets/fonts/fonts.css"
+
 const Header = () => {
     return (
         <>
-            <div className="hidden sm:block w-full h-[72px] bg-white shadow" >
+            <div className="fixed top-0 left-0 hidden sm:block w-full h-[72px] bg-white shadow" >
                 <div className='flex flex-row justify-between'>
+
                     <div className="flex-1 w-[162.57px] h-6 relative">
                         <img className="ml-[72px] max-w-[162px] h-6 mt-6" src={Logo} alt="Logo" />
                     </div>
