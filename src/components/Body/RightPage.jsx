@@ -5,7 +5,7 @@ import info from "../../assets/rightArticle/info.svg"
 
 const RightPage = () => {
     return (
-        <div className='flex flex-col mt-[56px] text-right mr-[13.8%] ml-[7.2%]'>
+        <div className='hidden sm:block flex flex-col mt-[56px] text-right mr-[13.8%] ml-[7.2%]'>
             <div className='flex flex-row'>
                 <div>
                     <img className="OutlineLocationOn24px2 w-[18px] h-[18px] relative" src={location} alt="location" />

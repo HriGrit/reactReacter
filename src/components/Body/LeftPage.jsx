@@ -8,8 +8,8 @@ import share from "../../assets/leftArticle/share.svg"
 
 const LeftPage = () => {
     return (
-        <div className='mt-[28px] ml-[13.8%] flex flex-col'>
-            <div className="Rectangle4 w-[692px] h-[472px] bg-white rounded border border-neutral-200">
+        <div className='mt-[28px] md:ml-[13.8%] sm:ml-0 flex flex-col'>
+            <div className="Rectangle4 w-[692px] h-[472px] bg-white rounded border border-neutral-200 sm:h-[396px] sm:h-[286px]">
                 <img src={lpic1} alt="article_lpic1"></img>
 
                 <div className='pl-[20px] w-full pr-[10px]'>

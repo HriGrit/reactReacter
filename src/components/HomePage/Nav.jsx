@@ -5,7 +5,7 @@ import groupjoin from "../../assets/groupjoin.svg"
 const Nav = () => {
     return (
         <div className='flex flex-row'>
-            <div className="w-[358px] h-[21px] relative left-[13.8%] mt-[47px]">
+            <div className="w-[358px] h-[21px] relative md:left-[13.8%] sm:left-0 mt-[47px]">
                 <div className="AllPosts32 left-0 top-0 absolute text-black text-base font-normal font-['IBM Plex Sans']">All Posts(32)</div>
                 <div className="hidden sm:block Article left-[113px] top-0 absolute text-zinc-500 text-base font-normal font-['IBM Plex Sans']">Article</div>
                 <div className="hidden sm:block Event left-[180px] top-0 absolute text-zinc-500 text-base font-normal font-['IBM Plex Sans']">Event</div>
@@ -21,7 +21,7 @@ const Nav = () => {
                         <img src={dropArrow} alt="somthn" />
                     </div>
                 </div>
-                <div className="Rectangle4 w-[125px] h-9 bg-blue-600 rounded flex flex-row">
+                <div className="hidden sm:block Rectangle4 w-[125px] h-9 bg-blue-600 rounded flex flex-row">
                     <div className="BaselineGroupAdd24px w-[22px] h-[22px] ml-[10px] my-[7px] mr-[6px]">
                         <img src={groupjoin} alt="somthn" />
                     </div>
