@@ -5,10 +5,10 @@ import searchtool from "../../assets/searchtool.svg";
 
 import "../../assets/fonts/fonts.css";
 
-const Header = () => {
+const Header = ({ createAccount }) => {
   return (
     <>
-      <div className="fixed top-0 left-0 hidden sm:block w-full h-[72px] bg-white shadow">
+      <div className="fixed top-0 left-0 hidden z-10 sm:block w-full h-[72px] bg-white shadow">
         <div className="flex flex-row justify-between">
           <div className="flex-1 w-[162.57px] h-6 relative">
             <img
@@ -35,9 +35,11 @@ const Header = () => {
             <span className="text-zinc-800 min-w-fill text-base font-medium font-['IBM Plex Sans'] whitespace-nowrap">
               Create account.{" "}
             </span>
-            <span className="text-blue-600 text-base font-bold font-['IBM Plex Sans'] flex flex-row whitespace-nowrap">
-              <p> It's free!</p>
-            </span>
+            <button onClick={createAccount}>
+              <span className="text-blue-600 text-base font-bold font-['IBM Plex Sans'] flex flex-row whitespace-nowrap">
+                <p> It's free!</p>
+              </span>
+            </button>
             <div className="w-6 h-6 relative">
               <img src={dropArrow} alt="dropdownarrow" />
             </div>
