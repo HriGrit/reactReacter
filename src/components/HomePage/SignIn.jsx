@@ -75,7 +75,7 @@ const SignIn = ({ closeAccount }) => {
                         <img className='fixed top-[44%] left-[87.3%] w-fit h-fit items-center justify-center z-50 text-black cursor-pointer' onClick={closeAccount} src={vector} alt="cancel"></img>
                     </div>
                     <div className='flex flex-col'>
-                        <div className="fixed bottom-0  items-center justify-center z-40 w-full h-[60%] pb-[36px] bg-white rounded-lg shadow">
+                        <div className="fixed bottom-0  items-center justify-center z-40 w-full h-[50%] pb-[36px] bg-white rounded-lg shadow">
                             <div className='flex flex-row justify-between mt-[24px] ml-[36px]'>
                                 <div className="text-black text-2xl font-bold font-['IBM Plex Sans'] mb-[24px]">Create Account</div>
 
